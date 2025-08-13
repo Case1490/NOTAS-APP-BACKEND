@@ -1,0 +1,24 @@
+GET http://localhost:3000/api/notes
+
+###
+GET http://localhost:3000/api/notes/68996b880287a4f4dd091c94
+
+###
+POST http://localhost:3000/api/notes
+Content-Type: application/json
+
+{
+  "title": "Nota creada desde el backend",
+  "description": "Descripcion de la nota creada desde el backend"
+}
+
+###
+DELETE http://localhost:3000/api/notes/68996b880287a4f4dd091c94
+
+###
+PUT http://localhost:3000/api/notes/689b3f742a34f9044ae17291
+Content-Type: application/json
+
+{
+  "title": "Nota actualizada"
+}

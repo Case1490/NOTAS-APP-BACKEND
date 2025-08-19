@@ -9,10 +9,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: [
-      "http://localhost:5173",
-      "https://peppy-youtiao-4a0e2f.netlify.app",
-    ],
+    origin: ["http://localhost:5173", "https://notasrapidaspro.netlify.app"],
   })
 );
 
